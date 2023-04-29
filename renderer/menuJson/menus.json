@@ -1,0 +1,979 @@
+[{
+  "_id": {
+    "$oid": "62710cefb241fb41217b6437"
+  },
+  "title": "Vorspeise",
+  "isActive": true,
+  "items": [
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Linsensuppe",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/Linsen_suppe_b5dwj8.png",
+      "price": 4,
+      "description": "Traditionelle Linsensuppe",
+      "isActive": true,
+      "_id": {
+        "$oid": "62710cefb241fb41217b6438"
+      },
+      "foodId": 1
+    },
+    {
+      "plus": false,
+      "vegan": true,
+      "foodId": 2,
+      "vegetarian": false,
+      "title": "Osh",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 4,
+      "description": "Traditionelle Afghanische Suppe Teigfäden mit Yoghurt und Linsen verfeinert",
+      "isActive": true,
+      "_id": {
+        "$oid": "62710cefb241fb41217b6439"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "kleiner Salat",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/salad_zclauk.jpg",
+      "price": 2,
+      "description": "Gemischter Salat, verfeinert mit Öl, Granatapfelsauce und Sumak",
+      "isActive": true,
+      "_id": {
+        "$oid": "62710cefb241fb41217b643a"
+      },
+      "foodId": 3.1
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Großer Salat",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/Gro%C3%9Fe_Salad_yoshym.jpg",
+      "price": 4,
+      "description": "Gemischter Salat, verfeinert mit Öl, Granatapfelsauce und Sumak",
+      "isActive": true,
+      "foodId": 3.2,
+      "_id": {
+        "$oid": "62710cefb241fb41217b643b"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Morgh Salat",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 8,
+      "description": "Gemischter Salat mit zartem Hähnchenfleisch",
+      "isActive": true,
+      "foodId": 4,
+      "_id": {
+        "$oid": "62710cefb241fb41217b643c"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Shor Nakhud",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004736/samples/food/single%20menu%20items/nokhod_agja9n.jpghttps://res.cloudinary.com/ingootag-com/image/upload/v1652004736/samples/food/single%20menu%20items/nokhod_agja9n.jpg",
+      "price": 5,
+      "description": "Eingelegte Kichererbsen dazu eine Pikante Chutney Sauce, kalt serviert",
+      "isActive": true,
+      "foodId": 5,
+      "_id": {
+        "$oid": "62710cefb241fb41217b643d"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62710d7bb241fb41217b6444"
+  },
+  "title": "Für den kleinen Hunger",
+  "isActive": true,
+  "items": [
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Oshak",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004717/samples/food/single%20menu%20items/9-Mantu_tx7mcd.png",
+      "price": 4,
+      "description": "Hausgemachte Teigtaschen mit einer Lauchfüllung in einem Yoghurt Bett, verfeinert mit einer Tomatensauce und Minze",
+      "isActive": true,
+      "foodId": 6,
+      "_id": {
+        "$oid": "62710d7bb241fb41217b6445"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Samosa",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004716/samples/food/single%20menu%20items/7-sambusa_ibox30.png",
+      "price": 8,
+      "description": "Frittierte Teigtaschen mit Kartoffelfüllung und einer pikanten Masala Würzung",
+      "isActive": true,
+      "foodId": 8,
+      "_id": {
+        "$oid": "62710d7bb241fb41217b6446"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Banjan Burani",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004716/samples/food/single%20menu%20items/8-Banjan_Burani_pvspri.png",
+      "price": 8,
+      "description": "Frittierte Auberginenscheiben in in einem Yoghurt Bett mit Paprika",
+      "isActive": true,
+      "foodId": 8,
+      "_id": {
+        "$oid": "62710d7bb241fb41217b6447"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Mantu",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004717/samples/food/single%20menu%20items/9-Mantu_tx7mcd.png",
+      "price": 10,
+      "description": "Hausgemachte Teigtaschen mit einer Hackfleischfüllung in einem Yoghurt Bett, verfeinert mit einer Tomatensauce und Minze",
+      "isActive": true,
+      "foodId": 9,
+      "_id": {
+        "$oid": "62710d7bb241fb41217b6448"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62710e3fb241fb41217b644a"
+  },
+  "title": "Kababs vom Holzkohlegrill",
+  "isActive": true,
+  "items": [
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Yogurtlu Adana",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004720/samples/food/single%20menu%20items/10-yougurtu_adana_bqcevt.png",
+      "price": 12,
+      "description": "Zwei Hackspieße mit Joghurt und Tomatensauce",
+      "isActive": true,
+      "foodId": 10,
+      "_id": {
+        "$oid": "62710e3fb241fb41217b644b"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Shami Kabab",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004720/samples/food/single%20menu%20items/11-shami_kebab_pw1fop.png",
+      "price": 13,
+      "description": "Zwei Hackspieße",
+      "isActive": true,
+      "foodId": 11,
+      "_id": {
+        "$oid": "62710e3fb241fb41217b644c"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Morgh Kabab",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004721/samples/food/single%20menu%20items/13-bale_morgh_gu6ksp.png",
+      "price": 13,
+      "description": "Zwei Hähnchenspieße",
+      "isActive": true,
+      "foodId": 12,
+      "_id": {
+        "$oid": "62710e3fb241fb41217b644d"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Bale Morgh",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652010209/samples/food/single%20menu%20items/bale_morg_cgp0jv.png",
+      "price": 10,
+      "description": "Hähnchenflügel",
+      "isActive": true,
+      "foodId": 13,
+      "_id": {
+        "$oid": "62710e3fb241fb41217b644e"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Morgh Kotletts",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004721/samples/food/single%20menu%20items/14._Morgh_kotlett_x1afjz.png",
+      "price": 13,
+      "description": "Zarte Hähnchenkoteletts",
+      "isActive": true,
+      "foodId": 14,
+      "_id": {
+        "$oid": "62710e3fb241fb41217b644f"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Baghlan Kabab",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004722/samples/food/single%20menu%20items/15-baghalan_kebab_kpulaz.png",
+      "price": 15,
+      "description": "Gemischter Hähnchenteller Hähnchenspieß, Hähnchenflügel und ein Hähnchenkotelett",
+      "isActive": true,
+      "foodId": 15,
+      "_id": {
+        "$oid": "62710e3fb241fb41217b6450"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Kaburga Kabab",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004736/samples/food/single%20menu%20items/kabura_kebab_epiobh.png",
+      "price": 18,
+      "description": "Lammkoteletts",
+      "isActive": true,
+      "foodId": 16,
+      "_id": {
+        "$oid": "62710e3fb241fb41217b6451"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Bamyan Kabab",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004723/samples/food/single%20menu%20items/17-Bamyan_Kebab_myxsqu.png",
+      "price": 16,
+      "description": "Gemischter Grillteller halber Lammspieß, halber Hähnchenspieß ein Hackspieß ein lammkotelett",
+      "isActive": true,
+      "foodId": 17,
+      "_id": {
+        "$oid": "62710e3fb241fb41217b6452"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Tikka Kabab",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004723/samples/food/single%20menu%20items/18-Tikka_kabab_uwdq0j.png",
+      "price": 14,
+      "description": "Zwei lammspieße",
+      "isActive": true,
+      "foodId": 18,
+      "_id": {
+        "$oid": "62710e3fb241fb41217b6453"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62710ef8b241fb41217b6455"
+  },
+  "title": "Kleine Teller",
+  "isActive": true,
+  "items": [
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "kleine Yogurtlu",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004723/samples/food/single%20menu%20items/19-yogh_ioukue.png",
+      "price": 10,
+      "description": "Ein Hackspieß mit Joghurt und Tomatensauce",
+      "isActive": true,
+      "foodId": 19,
+      "_id": {
+        "$oid": "62710ef8b241fb41217b6456"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "kleine Shami",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004724/samples/food/single%20menu%20items/20-shami_yx7fro.png",
+      "price": 10,
+      "description": "Ein Hackspieß",
+      "isActive": true,
+      "foodId": 20,
+      "_id": {
+        "$oid": "62710ef8b241fb41217b6457"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "kleine Morgh",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004724/samples/food/single%20menu%20items/21-morg_kebab_mdtf3w.png",
+      "price": 10,
+      "description": "Ein Hähnchenspieß",
+      "isActive": true,
+      "foodId": 21,
+      "_id": {
+        "$oid": "62710ef8b241fb41217b6458"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "kleine Morgh Kotlett",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004724/samples/food/single%20menu%20items/22-morgh_kottlett_u2fpjq.png",
+      "price": 10,
+      "description": "Zwei Hähnchenkoteletts",
+      "isActive": true,
+      "_id": {
+        "$oid": "62710ef8b241fb41217b6459"
+      },
+      "foodId": 22
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "kleine Tikka",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004724/samples/food/single%20menu%20items/23-Tikka_kebab_czsjhh.png",
+      "price": 10,
+      "description": "Ein Lammspieß",
+      "isActive": true,
+      "foodId": 23,
+      "_id": {
+        "$oid": "62710ef8b241fb41217b645a"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "kleine Kaburge",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004725/samples/food/single%20menu%20items/24-Kubra_kebab_mr5kea.png",
+      "price": 10,
+      "description": "Zwei Lammkoteletts",
+      "isActive": true,
+      "foodId": 24,
+      "_id": {
+        "$oid": "62710ef8b241fb41217b645b"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62710f8cb241fb41217b645d"
+  },
+  "title": "Plattengerichte",
+  "isActive": true,
+  "items": [
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Kabul Platte",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004733/samples/food/single%20menu%20items/25-Kabul_paltte_ccqrvy.png",
+      "price": 40,
+      "description": "Plattengericht besteht aus Vorscpeise Mantu oder Linsensuppe , Hauptpreise Vershidenr kababbsorten",
+      "isActive": true,
+      "foodId": 25,
+      "_id": {
+        "$oid": "62710f8cb241fb41217b645e"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Kombi",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004730/samples/food/single%20menu%20items/26-Kombi_f35bvq.png",
+      "price": 14,
+      "description": "Ein vegitariche Pfannengericht und ein speiß Kabab",
+      "isActive": true,
+      "foodId": 26,
+      "_id": {
+        "$oid": "62710f8cb241fb41217b6460"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62710ff9b241fb41217b6469"
+  },
+  "title": "Pfannengerichte",
+  "isActive": true,
+  "items": [
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Chicken Tandoori",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004728/samples/food/single%20menu%20items/27-chiken_Tanduri_zfeyhk.png",
+      "price": 12,
+      "description": "Zartes Hähnchenfleisch gegart in einer scharfen Tandoori-Masala Sauce, Gemüse mit duftendem Basmati Reis",
+      "foodId": 27,
+      "isActive": true,
+      "_id": {
+        "$oid": "62710ff9b241fb41217b646a"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Chicken Safrani",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004726/samples/food/single%20menu%20items/28-_chicken_Zaferani_feslm9.png",
+      "foodId": 28,
+      "price": 12,
+      "description": "Zartes Hähnchenfleisch gegart in einer milden Safran-Sahne Sauce mit Gemüse und duftendem Reis",
+      "isActive": true,
+      "_id": {
+        "$oid": "62710ff9b241fb41217b646b"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Chicken Curry",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004729/samples/food/single%20menu%20items/29-_chicken_kurry_lziruv.png",
+      "price": 12,
+      "description": "Zartes Hähnchenfleisch gegart in einer pikanten Curry Sauce mit Gemüse und duftendem Reis",
+      "isActive": true,
+      "foodId": 29,
+      "_id": {
+        "$oid": "62710ff9b241fb41217b646c"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Qorme Chalau",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004727/samples/food/single%20menu%20items/30-ghorma_chelo_cchj5g.png",
+      "price": 12,
+      "description": "Rindgeschnetzeltes in einer herzhaften Tomatensauce mit duftendem Basmati Reis",
+      "isActive": true,
+      "foodId": 30,
+      "_id": {
+        "$oid": "62710ff9b241fb41217b646d"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Kofte Chalau",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004728/samples/food/single%20menu%20items/31-kufda_chelou_xloouo.png",
+      "price": 12,
+      "description": "Saftige Hackfleichbällchen in einer Tomatensauce mit duftendem Basmati Reis",
+      "isActive": true,
+      "_id": {
+        "$oid": "62710ff9b241fb41217b646e"
+      },
+      "foodId": 31
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62711116b241fb41217b6471"
+  },
+  "title": "Vegitariche Grichte",
+  "isActive": true,
+  "items": [
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Sabzi Chalau",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004729/samples/food/single%20menu%20items/33-Sabzi-chlou_m7tfyp.png",
+      "price": 12,
+      "description": "Spinat, traditionell zubereitet mit mit duftendem Basmati Reis",
+      "isActive": true,
+      "foodId": 33,
+      "_id": {
+        "$oid": "62711116b241fb41217b6472"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Qorme Kachalu",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004731/samples/food/single%20menu%20items/34-gorme-chelou-vegan_hvi709.png",
+      "price": 12,
+      "description": "Schonend gegarte Kartoffeln in einer Tomaten sauce mit duftendem Basmati Reis",
+      "isActive": true,
+      "foodId": 34,
+      "_id": {
+        "$oid": "62711116b241fb41217b6473"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Banjan Burani",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004730/samples/food/single%20menu%20items/35-Badenjan-burani-vegan_qyolse.png",
+      "price": 12,
+      "description": "Frittierte Auberginenscheiben in einem Yoghurtbett mit Paprika und Basmati Reis",
+      "foodId": 35,
+      "isActive": true,
+      "_id": {
+        "$oid": "62711116b241fb41217b6474"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Veggie Tandoori",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004731/samples/food/single%20menu%20items/36-vegi_tanduri_ybd6ii.png",
+      "price": 12,
+      "description": "Zaetes Gemüsw gegart in einer scharfen Tandoori-Masala Sause mit duftedem Basmati Reis",
+      "isActive": true,
+      "foodId": 36,
+      "_id": {
+        "$oid": "62711116b241fb41217b6475"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Veggie Safrani",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004731/samples/food/single%20menu%20items/37-vegii_zaferani_u0udwm.png",
+      "price": 12,
+      "description": "Zartes Gemüse gegart in einer milden Safran-Sahne Sause mit duftendem Basmati Reis",
+      "foodId": 37,
+      "isActive": true,
+      "_id": {
+        "$oid": "62711116b241fb41217b6476"
+      }
+    },
+    {
+      "plus": true,
+      "vegan": false,
+      "vegetarian": true,
+      "title": "Veggie Curry",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004732/samples/food/single%20menu%20items/38-vegi-curry_kerrth.png",
+      "price": 12,
+      "description": "Zartes Gemüse gegart in einer pikaten Currz Sause mit duftendem Basmati Reis",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711116b241fb41217b6477"
+      },
+      "foodId": 38
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62711195b241fb41217b6481"
+  },
+  "title": "Extras",
+  "isActive": true,
+  "items": [
+    {
+      "plus": false,
+      "vegan": true,
+      "vegetarian": false,
+      "title": "Pommes",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004732/samples/food/single%20menu%20items/39-Pommes_abtjfx.png",
+      "price": 0,
+      "description": "",
+      "foodId": 39,
+      "isActive": true,
+      "_id": {
+        "$oid": "62711195b241fb41217b6482"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Chicken Nuggets",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004732/samples/food/single%20menu%20items/40-chicken-nuggets_jiui2a.png",
+      "foodId": 40,
+      "price": 7,
+      "description": "Panierte Hähnchenstückchen mit Pommes",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711195b241fb41217b6483"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Kabuli Palau",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004733/samples/food/single%20menu%20items/41-kabili_polou_ciyir2.png",
+      "price": 4,
+      "description": "Braun gefärbter Basmati Reis mit karamelisierten Karottenstreifen und Rosinen",
+      "isActive": true,
+      "foodId": 41,
+      "_id": {
+        "$oid": "62711195b241fb41217b6484"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Chalau",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 4,
+      "description": "Traditionell dampfgegarter Basmati Reis",
+      "foodId": 42,
+      "isActive": true,
+      "_id": {
+        "$oid": "62711195b241fb41217b6485"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Zereshk Palau",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004733/samples/food/single%20menu%20items/43-zeresht_palau_ts9lfd.png",
+      "price": 7,
+      "foodId": 43,
+      "description": "Basmati Reis mit Berberizen",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711195b241fb41217b6486"
+      }
+    },
+    {
+      "plus": false,
+      "foodId": 44,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Qorme Gosht",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004734/samples/food/single%20menu%20items/44-ghorme_gosht_f8rcgh.png",
+      "price": 5,
+      "description": "Rindgeschnetzeltes in einer herzhaften Tomatensauce",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711195b241fb41217b6487"
+      }
+    },
+    {
+      "plus": false,
+      "foodId": 45,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Sabzi",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004734/samples/food/single%20menu%20items/45-sabzi_kdiq5w.png",
+      "price": 5,
+      "description": "Spinat traditionell zubereitet",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711195b241fb41217b6488"
+      }
+    },
+    {
+      "title": "Extra Pfannengericht",
+      "price": 7
+    },
+    {
+      "title": "Extra speiß",
+      "price": 6
+    },
+    {
+      "title": "Extra Kotletts",
+      "price": 5
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "627111c7b241fb41217b648a"
+  },
+  "title": "Dessert",
+  "isActive": true,
+  "items": [
+    {
+      "plus": false,
+      "foodId": 46,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Firnee",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004734/samples/food/single%20menu%20items/46-_Ferenie_bfvz9y.png",
+      "price": 4,
+      "description": "Afghanischer Milchpudding mit Kardamom und Pistazien",
+      "isActive": true,
+      "_id": {
+        "$oid": "627111c7b241fb41217b648b"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "foodId": 47,
+      "title": "Baklave",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004734/samples/food/single%20menu%20items/47-baklava_txworu.png",
+      "price": 5,
+      "description": "Zwei Stück",
+      "isActive": true,
+      "_id": {
+        "$oid": "627111c7b241fb41217b648c"
+      }
+    },
+    {
+      "plus": false,
+      "foodId": 48,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Kuchen mit Eis",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1652004735/samples/food/single%20menu%20items/48-Kuchen_cake_yls6ar.png",
+      "price": 5,
+      "description": "Ein Stück Schokoladenkuchen einer Kugel Vanilleeis",
+      "isActive": true,
+      "_id": {
+        "$oid": "627111c7b241fb41217b648d"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62711248b241fb41217b648f"
+  },
+  "title": "Getränke",
+  "isActive": true,
+  "items": [
+    {
+      "plus": false,
+      "vegan": true,
+      "vegetarian": false,
+      "title": "Mango Lassi",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 3.5,
+      "description": "0.3L",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711248b241fb41217b6490"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Frucht Lassi",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 3.5,
+      "description": "0.3L",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711248b241fb41217b6491"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Dooch",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 2.5,
+      "description": "0.3L",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711248b241fb41217b6492"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Wasser",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 2.5,
+      "description": "0.3L",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711248b241fb41217b6493"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Softdrinks",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 2.5,
+      "description": "0.3L",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711248b241fb41217b6494"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Arizona",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 3.5,
+      "description": "0.5L",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711248b241fb41217b6495"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Caprisonne",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 1.5,
+      "description": "0.2L",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711248b241fb41217b6496"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Säfte",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 3,
+      "description": "0.3L",
+      "isActive": true,
+      "_id": {
+        "$oid": "62711248b241fb41217b6497"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6271129cb241fb41217b64a1"
+  },
+  "title": "Heißentränke",
+  "isActive": true,
+  "items": [
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Kaffee Crema",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 2,
+      "description": "125ml",
+      "isActive": true,
+      "_id": {
+        "$oid": "6271129cb241fb41217b64a2"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Cappuccino",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 2,
+      "description": "125ml",
+      "isActive": true,
+      "_id": {
+        "$oid": "6271129cb241fb41217b64a3"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Kakao",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 2,
+      "description": "250ml",
+      "isActive": true,
+      "_id": {
+        "$oid": "6271129cb241fb41217b64a4"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Latte Macchiato",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 2,
+      "description": "250ml",
+      "isActive": true,
+      "_id": {
+        "$oid": "6271129cb241fb41217b64a5"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Kaffee Latte",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 2,
+      "description": "250ml",
+      "isActive": true,
+      "_id": {
+        "$oid": "6271129cb241fb41217b64a6"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Tee",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 1.5,
+      "description": "250ml",
+      "isActive": true,
+      "_id": {
+        "$oid": "6271129cb241fb41217b64a7"
+      }
+    },
+    {
+      "plus": false,
+      "vegan": false,
+      "vegetarian": false,
+      "title": "Kanne Tee",
+      "imageUrl": "https://res.cloudinary.com/ingootag-com/image/upload/v1651177609/samples/food/single%20menu%20items/nokhod_f0npxo.jpg",
+      "price": 3,
+      "description": "250ml",
+      "isActive": true,
+      "_id": {
+        "$oid": "6271129cb241fb41217b64a8"
+      }
+    }
+  ],
+  "__v": 0
+}]

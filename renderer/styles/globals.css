@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* * {
+  break-inside: avoid;
+} */
+
+@layer utilities {
+  .clip-your-needful-style {
+    clip-path: ellipse(100% 100% at 50% 0%);
+  }
+}
+
+@layer components {
+  .menu-button {
+    @apply border-b-4 py-10 px-2 font-semibold;
+  }
+
+  .menu-button:hover {
+    @apply border-[#c62c2c] text-[#c62c2c];
+  }
+
+  .t-container {
+    @apply bg-gray-500;
+  }
+
+  .orderButtons {
+    @apply mt-3 rounded-lg border bg-white p-[12px];
+  }
+
+  .table {
+    @apply my-24 mx-4 flex border-collapse justify-center overflow-hidden;
+    box-shadow: 0 2px 15px;
+    /* border-radius: 12px 12px 12px 12px; */
+    font-family: 'Open Sans', Sans-serif;
+  }
+
+  .th {
+    @apply uppercase;
+
+    font-family: 'Open Sans', Sans-serif;
+    text-transform: uppercase;
+  }
+
+  .td {
+    @apply items-center justify-center px-6 py-4 align-middle text-sm text-gray-500;
+  }
+}
+
+/* //   `rounded-lg border bg-white p-[10px]  ${
+  props.callWaiterApiStatus ===
+    props.callWaiterApiStatusesEnum.PENDING && 'text-gray-500'
+}` */
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+.review-modal{
+  max-width: 64rem !important;
+  height: 40rem !important;
+}
+.sk-ww-google-reviews{
+  height: 400px !important;
+  overflow-y: scroll !important;
+}
+/* .sk-ww-google-reviews  > div:nth-child(3){
+  overflow-y: scroll !important;
+} */
+.menu-types-wrap{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+.menu-type-item,.menu-type-item img{
+  cursor: pointer;
+}
+.review-wrap{
+  overflow-y: scroll;
+  height: 380px;
+}
