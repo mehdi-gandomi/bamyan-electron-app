@@ -8,7 +8,7 @@ import TailWindModal from '../../components/tailWindModal/TailWindModal'
 import UserLoginModal from '../../components/userLoginModal/UserLoginModal'
 import { Extra } from '../../types/extra'
 import { OrderItemType } from '../../types/order'
-import { printOrder } from './utils/print2'
+
 
 // class SW {
 //   private weekday: string
@@ -100,15 +100,10 @@ export default function Orders(): JSX.Element {
       ordersSummary?.length > length
     ) {
       audio.current?.play()
-      console.log(ordersSummary[ordersSummary?.length - 1], 'printing')
-      printOrder(ordersSummary[ordersSummary?.length - 1])
+      console.log(ordersSummary[(ordersSummary?.length - 1)], 'printing')
+      ipcRenderer.send('print', ordersSummary[(ordersSummary?.length - 1)]); 
     }
     setLength(ordersSummary?.length || 0)
-    if (isMounted?.current && ordersSummary && ordersSummary.length) {
-      // console.log('printing', ordersSummary[0])
-      // printOrder()
-      ipcRenderer.send('print', ordersSummary[0]);
-    }
   }, [ordersSummary])
 
   useEffect(() => {
