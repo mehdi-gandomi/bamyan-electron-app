@@ -6,7 +6,7 @@
   "author": "Ray <dev@hiray.me>",
   "main": "app/background.js",
   "scripts": {
-    "dev": "nextron --port 8585",
+    "start": "nextron --port 8585",
     "build": "nextron build",
     "postinstall": "electron-builder install-app-deps",
     "format": "prettier --write src/**/*.ts{,x}",
