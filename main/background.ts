@@ -34,7 +34,7 @@ if (isProd) {
     height: 720,
     minWidth: 1280,
     minHeight: 720,
-    title: "Treeline Explorer",
+    title: "Bamyan",
     frame: true,
     backgroundColor: backgroundColor(),
     // webPreferences: {
@@ -57,18 +57,18 @@ if (isProd) {
     // event.reply('ipc-example', msgTemplate('pong'));
   });
   
-ipcMain.on('print', async (event, order) => {
-  console.log(order)
+ipcMain.on('print', async (event, item) => {
+  console.log(item.order)
 
-  console.log(order)
-  print(order)
+  console.log(item.order)
+  print(item.order,item.ip)
   event.reply('printed');
 });
   if (isProd) {
     await mainWindow.loadURL("app://./home.html");
   } else {
     const port = process.argv[2];
-    await mainWindow.loadURL(`http://localhost:${port}/dashboard/orders`);
+    await mainWindow.loadURL(`http://localhost:${port}`);
     mainWindow.webContents.openDevTools();
   }
 })();

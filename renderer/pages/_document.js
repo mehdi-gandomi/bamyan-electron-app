@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
           />
           
         </Head>
-        <body>
+        <body style={{overflowX:"hidden"}}>
           <Main />
           <div id="big_food_image" />
           <div id="portal"></div>

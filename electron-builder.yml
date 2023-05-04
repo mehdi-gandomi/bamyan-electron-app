@@ -1,6 +1,6 @@
 appId: me.hiray.nextron
-productName: Nextron Example app
-copyright: Copyright © 2020 Ray
+productName: Bamyan
+copyright: Copyright © 2020 Bamyan
 directories:
   output: dist
   buildResources: resources

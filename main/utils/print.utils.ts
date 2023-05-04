@@ -7,15 +7,15 @@ const {
   BreakLine,
 } = require('node-thermal-printer');
 import axios from 'axios'
-export const print = async (order:any) => {
+export const print = async (order:any,ip:any) => {
   return new Promise(async (resolve, reject) => {
     try {
       // let data = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/order/${order['_id']}/print`)
       //   const fullOrder = await data.json();
-
+      ip=ip ? ip:"192.168.2.36";
       const printer = new ThermalPrinter({
         type: PrinterTypes.EPSON, // 'star' or 'epson'
-        interface: 'tcp://192.168.2.36',
+        interface: `tcp://${ip}`,
         options: {
           timeout: 1000,
         },
@@ -27,7 +27,7 @@ export const print = async (order:any) => {
       });
       const isConnected = await printer.isPrinterConnected();
       console.log('Printer connected:', isConnected);
-    let {data:fullOrder} = await axios.get(`http://localhost:3030/order/${order['_id']}/print`)
+    let {data:fullOrder} = await axios.get(`https://bamiyan-kebab-backend.herokuapp.com/order/${order['_id']}/print`)
       // const fullOrder = await data.json();
       printer.alignCenter();
       printer.println(`${new Date(order.orderTime).toLocaleDateString('ko-KR')} ${new Date(order.orderTime).getHours()}:${new Date(

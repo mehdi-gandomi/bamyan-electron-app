@@ -48,7 +48,7 @@ const InputField = ({
           type="text"
           name={fieldName}
           id={fieldName}
-          className="block w-full rounded-md border-gray-300 pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+          className="block w-full rounded-md h-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
           placeholder={placeholder || ''}
           value={value}
           onChange={(e) => {
