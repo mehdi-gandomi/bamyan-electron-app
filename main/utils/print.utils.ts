@@ -27,6 +27,14 @@ export const print = async (order:any,ip:any) => {
       });
       const isConnected = await printer.isPrinterConnected();
       console.log('Printer connected:', isConnected);
+
+      // printer.setTextNormal();                                    // Set text to normal
+      printer.setTextDoubleHeight();                              // Set text to double height
+      printer.setTextDoubleWidth();                               // Set text to double width
+      // printer.setTextQuadArea();                                  // Set text to quad area
+      // printer.setTextSize(7,7);  
+
+
     let {data:fullOrder} = await axios.get(`https://bamiyan-kebab-backend.herokuapp.com/order/${order['_id']}/print`)
       // const fullOrder = await data.json();
       printer.alignCenter();
@@ -67,7 +75,7 @@ export const print = async (order:any,ip:any) => {
         ]);
         if (item.extras && item.extras.length) {
           printer.alignCenter();
-          printer.println(`extras: ${extraText}`);
+          printer.println(`Beilage: ${extraText}`);
         }
         printer.alignLeft();
         printer.println('************************************************');
