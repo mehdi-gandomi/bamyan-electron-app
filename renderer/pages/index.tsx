@@ -100,12 +100,17 @@ export default function Orders(): JSX.Element {
     if (
       isMounted?.current &&
       ordersSummary &&
-      isPermmited &&
+      
       ordersSummary?.length > length
     ) {
-      audio.current?.play()
-      console.log(ordersSummary[(ordersSummary?.length - 1)], 'printing')
-      ipcRenderer.send('print', {ip:printerIp,order:ordersSummary[(ordersSummary?.length - 1)]}); 
+      if(isPermmited){
+        audio.current?.play()  
+      }
+      
+      if(!ordersSummary[0].printed){
+        console.log(ordersSummary[0], 'printing')
+      ipcRenderer.send('print', {ip:printerIp,order:ordersSummary[0]}); 
+      }
       NotificationManager.success('New Order!');
     }
     setLength(ordersSummary?.length || 0)
