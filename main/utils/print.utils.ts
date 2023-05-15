@@ -78,7 +78,7 @@ export const print = async (order:any,ip:any) => {
           printer.println(`Beilage: ${extraText}`);
         }
         printer.alignLeft();
-        printer.println('************************************************');
+        printer.println('************************');
         printer.newLine();
       }
 
