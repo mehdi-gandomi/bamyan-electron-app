@@ -68,11 +68,12 @@ export const print = async (order:any,ip:any) => {
         if(extraText.length) extraText=extraText.join(",")
 
 
-        printer.tableCustom([
-          { text: `${item.count}x`, align: 'LEFT', bold: true },
-          { text: menuItem.title, align: 'CENTER' },
-          { text: item.extras && item.extras.length ? (item.count * menuItem.price)+extraPrice:(item.count * menuItem.price), align: 'RIGHT', bold: true },
-        ]);
+        // printer.tableCustom([
+        //   { text: `${item.count}x`, align: 'LEFT', bold: true },
+        //   { text: menuItem.title, align: 'CENTER' },
+        //   { text: item.extras && item.extras.length ? (item.count * menuItem.price)+extraPrice:(item.count * menuItem.price), align: 'RIGHT', bold: true },
+        // ]);
+        printer.println(`${item.count}x  ${menuItem.title}  ${item.extras && item.extras.length ? (item.count * menuItem.price)+extraPrice:(item.count * menuItem.price)}`);
         if (item.extras && item.extras.length) {
           printer.alignCenter();
           printer.println(`Beilage: ${extraText}`);
