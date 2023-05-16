@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import useSWR, { useSWRConfig } from 'swr'
 const { ipcRenderer } = require('electron')
 import Delete from '../components/icons/Delete'
+import Print from '../components/icons/Print'
 
 import ClipLoader from 'react-spinners/ClipLoader'
 import TailWindModal from '../components/tailWindModal/TailWindModal'
@@ -115,7 +116,10 @@ export default function Orders(): JSX.Element {
     }
     setLength(ordersSummary?.length || 0)
   }, [ordersSummary])
-
+  const printTheOrder=(order)=>{
+    ipcRenderer.send('print', {ip:printerIp,order:order}); 
+    
+  }
   useEffect(() => {
     isMounted.current = true
     if(localStorage){
@@ -207,7 +211,7 @@ export default function Orders(): JSX.Element {
                   <th>Zeit </th>
                   <th>Admin table control</th>
                   <th>Kellner Name</th>
-                  <th className="text-center">Remove </th>
+                  <th className="text-center">Action </th>
                 </tr>
               </thead>
               <tbody>
@@ -243,10 +247,16 @@ export default function Orders(): JSX.Element {
                         {order.tableStatus.title}
                       </td>
                       <td>Hasan</td>
-                      <td className=" pl-[30px] text-sm font-semibold text-red-600">
+                      <td className=" pl-[30px] text-sm font-semibold text-red-600 ">
+                        <div className='flex items-center'>
                         <div onClick={(e) => deleteSingleOrder(e, order._id)}>
                           <Delete />
                         </div>
+                        <div onClick={(e) => printTheOrder(order)}>
+                          <Print />
+                        </div>
+                        </div>
+                        
                       </td>
                     </tr>
                     {order._id === collapsedOrderId && (
