@@ -79,7 +79,8 @@ export const print = async (order:any,ip:any) => {
           printer.println(`Beilage: ${extraText}`);
         }
         printer.alignLeft();
-        printer.println('************************');
+        // printer.println('************************');
+        printer.drawLine();
         printer.newLine();
       }
 
@@ -88,9 +89,10 @@ export const print = async (order:any,ip:any) => {
         let price=(total * 10) / 100;
         total+=price;
       }
+
       printer.tableCustom([
         { text: 'Total', align: 'LEFT', bold: true },
-        { text: `€${total}`, align: 'RIGHT', bold: true },
+        { text: `€${total}  ${order.hasTip ? 'x 10%(tip added by client)':''}`, align: 'RIGHT', bold: true },
       ]);
       printer.newLine();
       printer.println(order.description);
