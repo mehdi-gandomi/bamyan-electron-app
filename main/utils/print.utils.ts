@@ -59,7 +59,7 @@ export const print = async (order:any,ip:any) => {
         let extraPrice:any=0;
         if(item.extras && item.extras.length){
           for(const extra of item.extras){
-            total+=(extra.count * extra.extra.price);
+            // total+=(extra.count * extra.extra.price);
             extraPrice+=(extra.count * extra.extra.price);
             extraText.push(`${extra.extra.title}(${extra.count})`);
           }
@@ -73,7 +73,8 @@ export const print = async (order:any,ip:any) => {
         //   { text: menuItem.title, align: 'CENTER' },
         //   { text: item.extras && item.extras.length ? (item.count * menuItem.price)+extraPrice:(item.count * menuItem.price), align: 'RIGHT', bold: true },
         // ]);
-        printer.println(`${item.count}x  ${menuItem.title}  ${item.extras && item.extras.length ? (item.count * menuItem.price)+extraPrice:(item.count * menuItem.price)}`);
+        // printer.println(`${item.count}x  ${menuItem.title}  ${item.extras && item.extras.length ? (item.count * menuItem.price)+extraPrice:(item.count * menuItem.price)}`);
+        printer.println(`${item.count}x  ${menuItem.title}  ${(item.count * menuItem.price)}`);
         if (item.extras && item.extras.length) {
           printer.alignCenter();
           printer.println(`Beilage: ${extraText}`);

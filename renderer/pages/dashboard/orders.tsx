@@ -314,14 +314,18 @@ export default function Orders(): JSX.Element {
                                   Total :{' '}
                                   {(singleOrder as OrderItemType[])?.reduce(
                                     (a, b) => {
+                                      // return (
+                                      //   a +
+                                      //   (b.count * b.price +
+                                      //     b.extras?.reduce(
+                                      //       (acc, { extra, count }) =>
+                                      //         acc + count * extra.price || 0,
+                                      //       0
+                                      //     ))
+                                      // )
                                       return (
                                         a +
-                                        (b.count * b.price +
-                                          b.extras?.reduce(
-                                            (acc, { extra, count }) =>
-                                              acc + count * extra.price || 0,
-                                            0
-                                          ))
+                                        (b.count * b.price )
                                       )
                                     },
                                     0
@@ -336,12 +340,13 @@ export default function Orders(): JSX.Element {
                                       {(singleOrder as OrderItemType[])?.reduce(
                                         (a, b) =>
                                           a +
-                                          (b.count * b.price +
-                                            b.extras.reduce(
-                                              (acc, { extra, count }) =>
-                                                acc + extra.price * count,
-                                              0
-                                            )),
+                                          // (b.count * b.price +
+                                          //   b.extras.reduce(
+                                          //     (acc, { extra, count }) =>
+                                          //       acc + extra.price * count,
+                                          //     0
+                                          //   )),
+                                          (b.count * b.price ),
                                         0
                                       ) * 1.1}{' '}
                                       €
