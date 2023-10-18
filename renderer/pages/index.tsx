@@ -3,7 +3,7 @@ import useSWR, { useSWRConfig } from 'swr'
 const { ipcRenderer } = require('electron')
 import Delete from '../components/icons/Delete'
 import Print from '../components/icons/Print'
-
+import Cookies from 'js-cookie'
 import ClipLoader from 'react-spinners/ClipLoader'
 import TailWindModal from '../components/tailWindModal/TailWindModal'
 import UserLoginModal from '../components/userLoginModal/UserLoginModal'
@@ -41,7 +41,7 @@ export default function Orders(): JSX.Element {
   const resetAllTables = () => {
     fetch(`https://bamiyan-kebab-backend.herokuapp.com/order/allOrder`, {
       method: 'DELETE',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json','Authorization':'Bearer '+Cookies.get("access_token") },
     })
       .then((res) => res.json())
       .then((data) => {
@@ -79,7 +79,7 @@ export default function Orders(): JSX.Element {
   const { mutate } = useSWRConfig()
 
   const fetcher = (url: string) =>
-    fetch("https://bamiyan-kebab-backend.herokuapp.com" + url).then((res) => res.json())
+    fetch("https://bamiyan-kebab-backend.herokuapp.com" + url,{headers:{'Authorization':'Bearer '+Cookies.get("access_token")}}).then((res) => res.json())
   const {
     data: ordersSummary,
     error: ordersSummaryError,
@@ -160,6 +160,7 @@ export default function Orders(): JSX.Element {
       }),
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
+        'Authorization':'Bearer '+Cookies.get("access_token")
       },
     })
     mutate(`https://bamiyan-kebab-backend.herokuapp.com/order/summary`)

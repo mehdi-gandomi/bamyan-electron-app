@@ -6,7 +6,7 @@
   "author": "Ray <dev@hiray.me>",
   "main": "app/background.js",
   "scripts": {
-    "start": "nextron --port 8585",
+    "start": "nextron --port 8888",
     "build": "nextron build",
     "postinstall": "electron-builder install-app-deps",
     "format": "prettier --write src/**/*.ts{,x}",
@@ -21,6 +21,7 @@
     "css-reset-and-normalize": "^2.3.5",
     "electron-serve": "^1.1.0",
     "electron-store": "^8.0.1",
+    "js-cookie": "^3.0.5",
     "nextjs-progressbar": "^0.0.14",
     "node-thermal-printer": "^4.2.0",
     "react": "^17.0.2",
